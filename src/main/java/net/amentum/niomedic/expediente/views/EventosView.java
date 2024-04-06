@@ -33,12 +33,6 @@ public class EventosView implements Serializable {
    private String descripcion;
    private Date alerta;
    private Boolean visible;
-   private Long regionSanitaria;
-   private String unidadMedica;
-   private Integer status;
-   private Long idUsuarioRecibe;
-   private String idPaciente;
-   private String especialidad;
 
    //   cuando el evento es una consulta debe existir una relacion
    private Long idConsulta;
@@ -50,4 +44,23 @@ public class EventosView implements Serializable {
    //valores de retorno
    private String _eventoDescripcion;
    private String _eventoColor;
+
+   @Override
+   public String toString() {
+      return "EventosView{" +
+         "idEventos=" + idEventos +
+         ", titulo='" + titulo + '\'' +
+         ", inicio=" + inicio +
+         ", fin=" + fin +
+         ", ubicacion='" + ubicacion + '\'' +
+         ", conferencia='" + conferencia + '\'' +
+         ", descripcion='" + descripcion + '\'' +
+         ", alerta=" + alerta +
+         ", visible=" + visible +
+         ", tipoEventoId=" + tipoEventoId +
+         ", _eventoDescripcion='" + _eventoDescripcion + '\'' +
+         ", _eventoColor='" + _eventoColor + '\'' +
+         ", idUsuario='" + idUsuario + '\'' +
+         '}';
+   }
 }

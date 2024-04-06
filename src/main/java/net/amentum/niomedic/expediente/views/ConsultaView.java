@@ -72,7 +72,6 @@ public class ConsultaView implements Serializable {
    private Long idMeeting;
    //campos agregados  en el sprint2 14/04/2021
    private Integer servicioAtencion;
-   private Integer idGroup;
    //
 
    private Integer gradoDificultad;
@@ -141,13 +140,13 @@ public class ConsultaView implements Serializable {
          //campos agregados  en el sprint2 14/04/2021
               ", servicioAtencion="+servicioAtencion+
          //
-         ", idGroup= " + idGroup +
-         ", idTipoDificultad="+idTipoDificultad+
-         ", idGradoDificultad="+idGradoDificultad+
-         ", idOrigenDificultad="+idOrigenDificultad+
-         ", primeraVezAnio="+primeraVezAnio+
-         ", primeraVezUneme="+primeraVezUneme+
-         ", consultaExternaService="+consultaExternaService+
+              ", idTipoDificultad="+idTipoDificultad+
+              ", idGradoDificultad="+idGradoDificultad+
+              ", idOrigenDificultad="+idOrigenDificultad+
+              ", primeraVezAnio="+primeraVezAnio+
+              ", primeraVezUneme="+primeraVezUneme+
+              ", consultaExternaService="+consultaExternaService+
+
               "}";
    }
 
