@@ -105,8 +105,5 @@ public class CatDiagnosticoView implements Serializable{
    private String prinMmSubGrupo;
    private String descripcionPrinMmSubGrupo;
    //
-   private Integer limiteInferior;
-   private Integer limiteSuperior;
-   private String letraLimiteInferior;
-   private String letraLimiteSuperior;
+
 }

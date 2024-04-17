@@ -23,4 +23,5 @@ public class HistoriaClinicaGeneralView implements Serializable {
    private Boolean activo;
    private String creadoPor;
    private String hcg;
+   private Integer idGroup;
 }
