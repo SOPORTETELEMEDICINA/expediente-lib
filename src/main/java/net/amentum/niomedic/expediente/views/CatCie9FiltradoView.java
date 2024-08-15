@@ -15,11 +15,11 @@ public class CatCie9FiltradoView implements Serializable{
    private Long idCie9;
    private String catalogKey;
    private String proNombre;
-//   private String proCveEdia;
-//   private String proEdadIa;
-//   private String proCveEdfa;
-//   private String proEdadFa;
-//   private String sexType;
+   private String proCveEdia;
+   private String proEdadIa;
+   private String proCveEdfa;
+   private String proEdadFa;
+   private String sexType;
 //   private String porNivela;
    private String procedimientoType;
 //   private String proPrincipal;

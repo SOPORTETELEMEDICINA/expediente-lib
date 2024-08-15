@@ -17,9 +17,9 @@ public class CatCie10FiltradoView implements Serializable{
    private String catalogKey;
 //   private String asterisco;
    private String nombre;
-//   private String lsex;
-//   private String linf;
-//   private String lsup;
+   private String lsex;
+   private String linf;
+   private String lsup;
 //   private String trivial;
 //   private String erradicado;
 //   private String nInter;
